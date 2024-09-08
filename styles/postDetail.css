@@ -1,0 +1,29 @@
+.entry-content {
+  word-wrap: break-word;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.entry-content .wp-audio-shortcode,
+.entry-content .wp-embedded-audio,
+.entry-content .wp-embedded-video,
+.entry-content .wp-video,
+.entry-content p {
+  margin-bottom: 1.6em;
+}
+
+.entry-content .wp-embedded-audio,
+.entry-content .wp-embedded-video {
+  display: inline-block;
+}
+
+.post-content > .cat-links,
+.post-content > .read-more,
+.post-content > .tags-links {
+  display: block;
+  margin-bottom: 0.8em;
+  font-weight: var(--ast-blog-meta-weight, "");
+}
